@@ -1,7 +1,7 @@
 window.onscroll = function() {miFuncionFija()};
 
 function miFuncionFija() {
-  var elementoFijo = document.querySelector('.OpcionesInf');
+  var elementoFijo = document.querySelector('.Opciones');
   var botonesExtra = document.querySelectorAll('.btnScroll');
   
   if (window.pageYOffset > 100) {
