@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/assets/img/favicon/cup-of-drink.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/img/favicon/cup-of-drink.png"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" type="text/css" href="styles.css" />
@@ -11,36 +15,185 @@
       href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Yanone+Kaffeesatz:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yanone+Kaffeesatz:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yanone+Kaffeesatz:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
     <title>Café</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <section class="linea">
-            Selección de café<br>
-        </section>
-        <section>
-            <figure class="banner">
-                <img class="img" src="assets/img/banners/bannerte.jpg" alt="banner te">
+      <section class="linea">Selección de café<br /></section>
+      <section>
+        <figure class="banner">
+          <img
+            class="bannerindex"
+            src="assets/img/banners/bannerte.jpg"
+            alt="banner te"
+          />
+        </figure>
+        <article class="secciones">
+          <p><a href="/index.html">Home</a> > <b>Todos los Café</b></p>
+        </article>
+        <article class="Opciones">
+          <a href="#Molido"><button class="btnInfusiones">Molido</button></a>
+          <a href="#Nespresso"
+            ><button class="btnInfusiones">Nespresso</button></a
+          >
+        </article>
+      </section>
+    </header>
+    <h1 id="Molido">Molido</h1>
+    <section class="productos">
+      <article>
+        <figure>
+          <img
+            src="assets/img/productos/cafe/prodomo.jpg"
+            alt="prodomo" 
+          />
+        </figure>
+        <h3>Dallmayr Prodomo</h3>
+        <p class="centerText">Origen Etiopía</p>
+        <p class="centerText"><i>Dulce Afrutado</i></p>
+          <button >Ver más</button>
+      </article>
+      <article>
+        <figure>
+          <img
+            src="assets/img/productos/cafe/250g.jpg"
+            alt="Kurukahveci"
+          />
+        </figure>
+        <h3>Kurukahveci</h3>
+        <p class="centerText">Arábica</p>
+        <p class="centerText"><i>Avellanas & chocolate</i></p>
+          <button >Ver más</button>
+      </article>
+    </section>
+    <h1 id="Nespresso">Nespresso</h1>
+    <section class="productos">
+        <article>
+          <figure>
+            <img
+              src="assets/img/productos/cafe/C-1063-Responsive-PLP.avif"
+              alt="Nocciola"
+            />
+          </figure>
+          <h3>Nocciola</h3>
+          <p class="centerText">Barista Creations</p>
+          <p class="centerText"><i>Rich & Nutty</i></p>
+          <button >Ver más</button>
+        </article>
+        <article>
+          <figure>
+            <img
+              src="assets/img/productos/cafe/C-1062-Responsive-PLP.avif"
+              alt="Vaniglia"
+            />
+          </figure>
+          <h3>Vaniglia</h3>
+          <p class="centerText">Barista Creations</p>
+          <p class="centerText"><i>Custardi & Vanilla</i></p>
+          <button>Ver más</button>
+        </article>
+        <article>
+            <figure>
+              <img
+                src="assets/img/productos/cafe/capsulas-nespresso-aluminio-etiopia.webp"S
+                alt="etiopia"
+              />
             </figure>
-            <article class="secciones">
-                <p><a href="/index.html">Home</a> > <b>Todos los Café</b></p>
-            </article>
-            <article class="Opciones">
-                <button class="btnInfusiones">Molido</button>
-                <button class="btnInfusiones">Nesspreso</button>
+            <h3>Etiopía</h3>
+            <p class="centerText">Single Origin</p>
+            <p class="centerText"><i>Dulce Afrutado</i></p>
+          <button >Ver más</button>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="assets/img/productos/cafe/capsulas-nespresso-aluminio-tostado-intenso.webp"
+                alt="Ignite"
+              />
+            </figure>
+            <h3>Ignite</h3>
+            <p class="centerText">Blend</p>
+            <p class="centerText"><i>Maderoso e intenso</i></p>
+          <button>Ver más</button>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="assets/img/productos/cafe/C-1062-Responsive-PLP.avif"
+                alt="vaniglia"
+              />
+            </figure>
+            <h3>Colombia</h3>
+            <p class="centerText">Single Origin</p>
+            <p class="centerText"><i>Balanceado con notas de nueces</i></p>
+          <button>Ver más</button>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="assets/img/productos/cafe/C-1062-Responsive-PLP.avif"
+                alt="vaniglia"
+              />
+            </figure>
+            <h3>Blonde</h3>
+            <p class="centerText">Espresso Roast</p>
+            <p class="centerText"><i>Suave y con notas de caramelo</i></p>
+          <button>Ver más</button>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="assets/img/productos/cafe/C-1062-Responsive-PLP.avif"
+                alt="vaniglia"
+              />
+            </figure>
+            <h3>One Love</h3>
+            <p class="centerText">Blend</p>
+            <p class="centerText"><i>Jazmín  & Limón</i></p>
+          <button>Ver más</button>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="assets/img/productos/cafe/C-1062-Responsive-PLP.avif"
+                alt="vaniglia"
+              />
+            </figure>
+            <h3>Get Up Stand Up</h3>
+            <p class="centerText">Blend</p>
+            <p class="centerText"><i>Miel & Avellana</i></p>
+            <button>Ver más</button>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="assets/img/productos/cafe/C-1062-Responsive-PLP.avif"
+                alt="vaniglia"
+              />
+            </figure>
+            <h3>Catch A Fire</h3>
+            <p class="centerText">Origen México</p>
+            <p class="centerText"><i>Pistacho, naranja & chocolate</i></p>
+            <button>Ver más</button>
+          </article>
+      </section>
+    <section class="content"></section>
 
-              </article>
-        </section>
-        </header>
-        <h1>Molido</h1>
-        <h1>Nesspreso</h1>
-        <section class="content"></section>
-        <footer>
-            holi soy el footer <br>
-            (●´ω｀●)
-        </footer>
-</body>
+    <footer>
+      holi soy el footer <br />
+      (●´ω｀●)
+    </footer>
+  </body>
 </html>

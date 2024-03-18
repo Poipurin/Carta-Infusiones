@@ -1,87 +1,116 @@
-*{
-    font-family: "Poppins", sans-serif;
-    color: #664D40;
-    margin: 0;
-  
+* {
+  font-family: "Poppins", sans-serif;
+  color: #664d40;
+  margin: 0;
 }
-.linea{
-    font-family: "Libre Baskerville", serif;
-    background-color: #66796B;
-    font-size: 1em;
-    color: #FFFFFF;
-    padding: 10px;
+.linea {
+  font-family: "Libre Baskerville", serif;
+  background-color: #66796b;
+  font-size: 1em;
+  color: #ffffff;
+  padding: 10px;
 }
-.banner{
-    display: flex;
-    justify-content: center;
+.banner {
+  display: flex;
+  justify-content: center;
+}
+.bannerindex{
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+#Carta {
+  margin-top: 1rem;
+  text-align: center;
+  color: #664d40;
+  font-size: 5rem;
+}
+h1 {
+  font-family: "Libre Baskerville", serif;
+  color: #ba8e7a;
+  margin: 25px 0 5px 0;
+  text-align: center;
+}
+h2 {
+  font-family: "Libre Baskerville", serif;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1em;
+}
+h3 {
+  text-align: center;
+}
+b {
+  color: #d4c2ad;
+}
+.Opciones {
+  display: flex;
+  justify-content: center;
+}
+button {
     
+  color: #ffffff;
+  border-radius: 10px;
 }
-.img{
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+.btnInfusiones {
+    background-color: #66796b;
+  width: 92%;
+  font-size: 1rem;
+  border: #ffffff;
+  margin: 5px;
+  padding: 9px 8px 5px 8px;
 }
-#Carta{
-    margin-top: 1rem;
-    text-align: center;
-    color: #664D40;
-    font-size:5rem;
+p {
+  font-family: "Poppins", sans-serif;
 }
-h1{
-    font-family: "Libre Baskerville", serif;
-    color: #BA8E7A;
-    margin: 10px 0 5px 0;
-    text-align: center;
+a {
+  text-decoration: none;
 }
-h2{
-    font-family: "Libre Baskerville", serif;
-    margin-top: 10px;
-    text-align: center;
-    font-size: 1em;
+#Bienvenida {
+  font-size: 0.8rem;
+  padding: 1.5em;
+  text-align: center;
 }
-b{
-    color: #D4C2AD;
-}
-.Opciones{
-    display: flex;
-    justify-content:center;
-}
-button{
-background-color: #66796B;
-color:#FFFFFF;
-border-radius: 10px;
-}
-.btnInfusiones{
-    width: 92%;
-    font-size: 1rem;
-    border: #FFFFFF;
-    margin: 5px;
-    padding: 9px 8px 5px 8px;
-}
-p{
-    font-family: "Poppins", sans-serif;
-}
-a{
-    text-decoration: none;
-}
-#Bienvenida{
-    font-size: .8rem;
-    padding: 1.5em;
-    text-align: center;
-}
-footer{
-    background-color: #EFDFCC;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    color: #BA8E7A;
-    padding: 5px 0  0 20px;
+footer {
+  background-color: #efdfcc;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #ba8e7a;
+  padding: 5px 0 0 20px;
 }
 .content {
-    min-height: 100%;
-    padding-bottom: 4em;}
+  min-height: 100%;
+  padding-bottom: 4em;
+}
 
-.secciones{
-    padding: 10px;
-    font-size: 1rem;
+.secciones {
+  padding: 10px;
+  font-size: 1rem;
+}
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+}
+.productos img{
+    max-width: 100%;
+    height: auto;
+}
+.productos>article{
+    flex: 0 0 50%;
+}
+
+article>button{
+    display: flex;
+        justify-content: center;
+      background-color: #D4C2AD;
+      width: 92%;
+      font-size: 1rem;
+      border: #ffffff;
+      margin: 10px;
+      padding: 9px 8px 5px 8px;}
+
+
+.centerText {
+  text-align: center;
 }
