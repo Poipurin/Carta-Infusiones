@@ -114,3 +114,16 @@ article>button{
 .centerText {
   text-align: center;
 }
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 80%; 
+    margin: auto;
+    z-index: 1000;
+    justify-content: center;
+  }
+  .btnScroll{
+    display: none;
+  }
