@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
 window.addEventListener('resize', checkScreenSize);
 function checkScreenSize() {
   if (document.body.clientWidth > 600) {
-    window.location.href = "/warning.html";
+    window.location.href = "/Carta-Infusiones/warning.html";
   }
 }
 
