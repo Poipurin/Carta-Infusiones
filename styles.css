@@ -1,11 +1,12 @@
 *{
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    color: #666;
+    font-family: "Poppins", sans-serif;
+    color: #664D40;
     margin: 0;
   
 }
 .linea{
-    background-color: #664D40;
+    font-family: "Libre Baskerville", serif;
+    background-color: #66796B;
     font-size: 1em;
     color: #FFFFFF;
     padding: 10px;
@@ -27,33 +28,38 @@
     font-size:5rem;
 }
 h1{
+    font-family: "Libre Baskerville", serif;
+    color: #BA8E7A;
     margin: 10px 0 5px 0;
     text-align: center;
 }
 h2{
+    font-family: "Libre Baskerville", serif;
     margin-top: 10px;
-    font-family: "Open Sans", sans-serif;
     text-align: center;
     font-size: 1em;
+}
+b{
+    color: #D4C2AD;
 }
 .Opciones{
     display: flex;
     justify-content:center;
 }
 button{
-background-color: #947A6C;
+background-color: #66796B;
 color:#FFFFFF;
 border-radius: 10px;
 }
 .btnInfusiones{
     width: 92%;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border: #FFFFFF;
     margin: 5px;
-    padding: 9px 0px 5px 0px;
+    padding: 9px 8px 5px 8px;
 }
 p{
-    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 a{
     text-decoration: none;
@@ -64,15 +70,18 @@ a{
     text-align: center;
 }
 footer{
-    background-color: #664D40;
+    background-color: #EFDFCC;
     position: fixed;
     bottom: 0;
     width: 100%;
-    color: #FFFFFF;
+    color: #BA8E7A;
     padding: 5px 0  0 20px;
 }
+.content {
+    min-height: 100%;
+    padding-bottom: 4em;}
+
 .secciones{
-    font-family: "Open Sans", sans-serif; 
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
