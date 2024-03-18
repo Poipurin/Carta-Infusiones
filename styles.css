@@ -1,0 +1,66 @@
+*{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    color: #666;
+    margin: 0;
+  
+}
+.linea{
+    background-color: #664D40;
+    font-size: 1em;
+    color: #FFFFFF;
+    padding: 10px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    
+}
+.img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+#Carta{
+    margin-top: 1rem;
+    text-align: center;
+    color: #664D40;
+    font-size:5rem;
+}
+h2{
+    margin-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 1em;
+}
+#Opciones{
+    display: flex;
+    justify-content:center;
+}
+button{
+background-color: #947A6C;
+color:#FFFFFF;
+border-radius: 10px;
+}
+.btnInfusiones{
+    width: 92%;
+    font-size: 1.2rem;
+    border: #FFFFFF;
+    margin: 5px;
+    padding: 9px 0px 5px 0px;
+}
+p{
+    font-family: "Open Sans", sans-serif;
+}
+#Bienvenida{
+    font-size: .8rem;
+    padding: 1.5em;
+    text-align: center;
+}
+footer{
+    background-color: #664D40;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 5px 0  0 20px;
+}
