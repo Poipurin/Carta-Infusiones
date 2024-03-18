@@ -16,4 +16,9 @@ function miFuncionFija() {
       btn.style.display = "none";
     });
   }
+
+  if (window.innerWidth > 600) {
+    window.location.href = "/warning.html";
+
+  }
 }
