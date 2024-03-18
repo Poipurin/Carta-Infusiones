@@ -48,6 +48,10 @@ b {
   display: flex;
   justify-content: center;
 }
+.OpcionesIndex {
+  display: flex;
+  justify-content: center;
+}
 button {
     
   color: #ffffff;

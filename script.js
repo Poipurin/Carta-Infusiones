@@ -1,7 +1,7 @@
 window.onscroll = function() {miFuncionFija()};
 
 function miFuncionFija() {
-  var elementoFijo = document.querySelector('.Opciones');
+  var elementoFijo = document.querySelector('.OpcionesInf');
   var botonesExtra = document.querySelectorAll('.btnScroll');
   
   if (window.pageYOffset > 100) {
@@ -16,9 +16,14 @@ function miFuncionFija() {
       btn.style.display = "none";
     });
   }
-
-  if (window.innerWidth > 600) {
+}
+document.addEventListener('DOMContentLoaded', function() {
+  checkScreenSize();
+});
+window.addEventListener('resize', checkScreenSize);
+function checkScreenSize() {
+  if (document.body.clientWidth > 600) {
     window.location.href = "/warning.html";
-
   }
 }
+
